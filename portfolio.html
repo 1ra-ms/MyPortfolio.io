@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lebogang's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="portfolio">
+            <h1>My Work</h1>
+            <p>Here are some of my projects.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="item-content">
+                        <h2>Project 1</h2>
+                        <p>Description of Project 1</p>
+                    </div>
+                    <img src="project1.jpg" alt="Project 1">
+                </div>
+                <div class="portfolio-item">
+                    <div class="item-content">
+                        <h2>Project 2</h2>
+                        <p>Description of Project 2</p>
+                    </div>
+                    <img src="project2.jpg" alt="Project 2">
+                </div>
+                <!-- Add more portfolio items as needed -->
+            </div>
+        </section>
+    </main>
+    <div id="modal" class="modal">
+        <div id="modal-content" class="modal-content"></div>
+        <span id="close-modal" class="close">&times;</span>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email: <a href="mailto:lebo@example.com">lebo@example.com</a></li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Address: 123 Street Name, City, Country</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 Lebogang Ramotshwarapula</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
